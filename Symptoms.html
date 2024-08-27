@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="Symptoms.css">
+<head>
+    <title>Symptoms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+  <h2>Check For Covid</h2>
+</header>
+<script src="Symptoms.js"></script>
+<div>
+<form>
+    <table>
+        <tbody>
+            <tr>
+                <th>Do you have fever?</th>
+                <td>
+                    <input type="radio" name="fever" id="Yfever">Yes
+                    <input type="radio" name="fever" id="Nfever">No
+                </td>
+                <th>Do you have cough?</th>
+                <td>
+                    <input type="radio" name="cough" id="Ycough">Yes
+                    <input type="radio" name="cough" id="Ncough">No
+                </td>
+            </tr>
+            <tr>
+                <th>Do you feel tiredness?</th>
+                <td>
+                    <input type="radio" name="tiredness" id="Ytiredness">Yes
+                    <input type="radio" name="tiredness" id="Ntiredness">No
+                </td>
+                <th>Do you have sore throat?</th>
+                <td>
+                    <input type="radio" name="throat" id="Ythroat">Yes
+                    <input type="radio" name="throat" id="Nthroat">No
+                </td>
+            </tr>
+            <tr>
+                <th>Do you have headache?</th>
+                <td>
+                    <input type="radio" name="headache" id="Yheadache">Yes
+                    <input type="radio" name="headache" id="Nheadache">No
+                </td>
+                <th>Do you feel aches and pains?</th>
+                <td>
+                    <input type="radio" name="aches" id="Yaches">Yes
+                    <input type="radio" name="aches" id="Naches">No
+                </td>
+            </tr>
+            <tr>
+                <th>Do you have diarrhoea?</th>
+                <td>
+                    <input type="radio" name="diarrhoea" id="Ydiarrhoea">Yes
+                    <input type="radio" name="diarrhoea" id="Ndiarrhoea">No
+                </td>
+                <th>Do you have discolouration of fingers and toes?</th>
+                <td>
+                    <input type="radio" name="discolouration" id="Ydiscolouration">Yes
+                    <input type="radio" name="discolouration" id="Ndiscolouration">No
+                </td>
+            </tr>
+            <tr>
+                <th>Do you have red eyes?</th>
+                <td>
+                    <input type="radio" name="eyes" id="Yeyes">Yes
+                    <input type="radio" name="eyes" id="Neyes">No
+                </td>
+                <th>Do you feel difficulty in breathing?</th>
+                <td>
+                    <input type="radio" name="breathing" id="Ybreathing">Yes
+                    <input type="radio" name="breathing" id="Nbreathing">No
+                </td>
+            </tr>
+            <tr>
+                <th>Do you feel loss of speech or mobility?</th>
+                <td>
+                    <input type="radio" name="mobility" id="Ymobility">Yes
+                    <input type="radio" name="mobility" id="Nmobility">No
+                </td>
+                <th>Do you feel chest pain?</th>
+                <td>
+                    <input type="radio" name="chest" id="Ychest">Yes
+                    <input type="radio" name="chest" id="Nchest">No
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <input type="submit" id="submit" onclick="myfunc()" > -->
+    <input type="submit" id="submit" onclick="validateSelection()">
+    <p id="error-msg" style="color: red; display: none;">Please select at least one option.</p>
+</form>
+</body>
+</html>

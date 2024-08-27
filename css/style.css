@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    font-family: "Circular", Circular, helvetica neue, sans-serif;
+    font: 1.3rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Teko', sans-serif;
+    /* font-weight: 900; */
+    color: #313656;
+}
+
+span{
+    color: #fa6376;
+}
+
+/* Specific Headings */
+.big-heading{
+    color: black;
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.coronavirus{
+    color: red;
+}
+
+/* Header */
+
+nav{
+    padding: 0% 4%;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 6% 4%;
+}
+
+/* Common in Sections */
+.cmn-headings{
+    font-size: 5rem;
+}
+.cmn-p{
+    font-size: 1.5rem;
+}
+/* Common bg code */
+.bg-repeat-size{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Carousel + title section */
+/* title(relative)=>carousel+header(absolute)*/
+
+.title{
+    position: relative;/* keeping container in html flow */
+}
+
+.title-content{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-img{
+    height: 90vh;
+    /* background-position: bottom; */
+}
+
+.bg-img-1{
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/gif?url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2020%2F03%2Fcrowd-virus-flu-sick-symptoms-AdobeStock_329654183.gif");
+}
+
+.bg-img-2{
+    background-image: url("https://www.gannett-cdn.com/experiments/usatoday/gifs/tool/1390-ambulance_Scene1.gif");
+}
+
+/* header = Navbar + Titlle content*/ 
+
+/* Navbar */
+.nav-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+
+.logo, .logo2{
+    width: 140px;
+}
+
+/* Title content */
+.title-btn{
+    color: white;
+    border: 2px solid black;
+    padding: 2% 3%;
+    background-color:#fa6376;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+
+:hover.title-btn{
+    background-color:#df4e62;
+}
+
+/* Contagious section*/
+#contagious{
+    background-image: url(https://static.live.templately.com/2020/04/5eaa28d5-object-2.png);
+    background-position: top;
+}
+
+.card{
+    text-align: center;
+    margin: 6% auto;
+    padding: 4% 0;
+}
+
+:hover.card{
+    border-bottom: 2px solid red;
+    background-color: #f9f9f9;
+}
+
+.symptoms-imgs , .precaution-imgs{
+    height: 100px;
+    width: 100px;
+}
+
+/* Symptoms */
+.symptoms-btn{
+    color: white;
+    border: 2px solid black;
+    padding: 2% 3%;
+    background-color:#fa6376;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+:hover.symptoms-btn{
+    background-color: #313656;
+}
+
+/* Precautions */
+
+
+
+/*footer */
+footer{
+    background-image: url("../images/footer-img.png");
+    background-size: cover;
+    margin: 7% 0% 0%;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prevention-text{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+

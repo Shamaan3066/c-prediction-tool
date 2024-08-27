@@ -1,0 +1,71 @@
+header {
+    font-family: 'Teko', sans-serif;
+    background-color: #fa6376;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #6c757d;
+    display: block;
+}
+
+header2 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #6c757d;
+    display: block;
+}
+
+form {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+ul {
+    font-family: 'Teko', sans-serif;
+    padding-left: 40%;
+    text-align: left;
+    font-size: 35px;
+}
+
+h1,h4 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #6c757d;
+}
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: #6c757d;
+}
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: #6c757d;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid #fa6376;
+    text-align: left;
+    padding: 8px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    color: #6c757d;
+    font-size: 20px;
+}
+
+td {
+    border: 1px solid #fa6376;
+    text-align: left;
+    padding: 8px;
+}
